@@ -1,5 +1,5 @@
 import React from "react";
-import SliderImage from "react-zoom-slider";
+// import SliderImage from "react-zoom-slider";
 
 const data = [
   {
@@ -22,10 +22,11 @@ const data = [
 
 export default function reactImageSlider() {
   return (
-    <SliderImage
-      data={data}
-      width="100%"
-      direction="right"
-    />
+    // <SliderImage
+    //   data={data}
+    //   width="100%"
+    //   direction="right"
+    // />
+    <h1>iii</h1>
   );
 }
